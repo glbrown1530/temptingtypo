@@ -4,7 +4,7 @@ body {
     padding: 0;
     background-color: #f5f5f5; /* Light gray background */
     background-image: url('horsebarnbackground.jpg'); /* Replace 'background.jpg' with your own background image */
-    background-size: cover;
+    background-size: contain;
     background-attachment: fixed;
 }
 
@@ -47,31 +47,31 @@ li {
 /* Page backgrounds */
 #page1 {
     background-image: url('horsebarn.jpg'); /* Barn background image */
-    background-size: cover;
+    background-size: contain;
     background-position: center;
 }
 
 #page2, #page3, #page4 {
     background-image: url('horselesson.jpg'); /* Horseback riding background image */
-    background-size: cover;
+    background-size: contain;
     background-position: center;
 }
 
 /* Ending pages */
 #ending1 {
     background-image: url('happyhorses.jpg'); /* Happy horses background image */
-    background-size: cover;
+    background-size: contain;
     background-position: center;
 }
 
 #ending2, #ending4 {
     background-image: url('facingchallenges.jpg'); /* Challenges background image */
-    background-size: cover;
+    background-size: contain;
     background-position: center;
 }
 
 #ending3 {
     background-image: url('happylessons.jpg'); /* Thriving business background image */
-    background-size: cover;
+    background-size: contain;
     background-position: center;
 }
