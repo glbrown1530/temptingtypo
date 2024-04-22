@@ -1,0 +1,77 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Light gray background */
+    background-image: url('<img src="https://images.pexels.com/photos/14916871/pexels-photo-14916871.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=1" srcset="https://images.pexels.com/photos/14916871/pexels-photo-14916871.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=1 1x, https://images.pexels.com/photos/14916871/pexels-photo-14916871.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2 2x" alt="Free Horses in Stable Stock Photo" class="spacing_noMargin__F5u9R PhotoZoom_image__2c8qM" width="4000" height="6000" style="transform: none; background: rgb(37, 32, 29);">'); /* Replace 'background.jpg' with your own background image */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: rgba(92, 153, 110, 0.8); /* Green background with transparency */
+    color: #fff; /* White text color */
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* White background with transparency */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+a {
+    color: #007bff; /* Blue link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Styling for specific pages */
+
+/* Page backgrounds */
+#page1 {
+    background-image: url('<img src="https://images.pexels.com/photos/8625106/pexels-photo-8625106.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=1" srcset="https://images.pexels.com/photos/8625106/pexels-photo-8625106.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=1 1x, https://images.pexels.com/photos/8625106/pexels-photo-8625106.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2 2x" alt="Free Photo of a Stable Stock Photo" class="spacing_noMargin__F5u9R PhotoZoom_image__2c8qM" width="4480" height="6720" style="transform: none; background: rgb(87, 89, 75);">'); /* Barn background image */
+    background-size: cover;
+    background-position: center;
+}
+
+#page2, #page3, #page4 {
+    background-image: url('<img src="https://images.pexels.com/photos/7671338/pexels-photo-7671338.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=1" srcset="https://images.pexels.com/photos/7671338/pexels-photo-7671338.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=1 1x, https://images.pexels.com/photos/7671338/pexels-photo-7671338.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2 2x" alt="Free A Mother Riding a Horse Greeting Her Child Stock Photo" class="spacing_noMargin__F5u9R PhotoZoom_image__2c8qM" width="5205" height="3470" style="transform: none; background: rgb(79, 76, 59);">'); /* Horseback riding background image */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Ending pages */
+#ending1 {
+    background-image: url('<img src="https://images.pexels.com/photos/7883333/pexels-photo-7883333.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=1" srcset="https://images.pexels.com/photos/7883333/pexels-photo-7883333.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=1 1x, https://images.pexels.com/photos/7883333/pexels-photo-7883333.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2 2x" alt="Free Woman Combing a Brown Horse Stock Photo" class="spacing_noMargin__F5u9R PhotoZoom_image__2c8qM" width="4000" height="6000" style="transform: none; background: rgb(140, 139, 137);">'); /* Happy horses background image */
+    background-size: cover;
+    background-position: center;
+}
+
+#ending2, #ending4 {
+    background-image: url('<img src="https://images.pexels.com/photos/7883350/pexels-photo-7883350.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=1" srcset="https://images.pexels.com/photos/7883350/pexels-photo-7883350.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=1 1x, https://images.pexels.com/photos/7883350/pexels-photo-7883350.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2 2x" alt="Free Woman Working in Stable Stock Photo" class="spacing_noMargin__F5u9R PhotoZoom_image__2c8qM" width="4000" height="6000" style="transform: none; background: rgb(129, 124, 118);">'); /* Challenges background image */
+    background-size: cover;
+    background-position: center;
+}
+
+#ending3 {
+    background-image: url('<img src="https://images.pexels.com/photos/7883104/pexels-photo-7883104.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=1" srcset="https://images.pexels.com/photos/7883104/pexels-photo-7883104.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=1 1x, https://images.pexels.com/photos/7883104/pexels-photo-7883104.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2 2x" alt="Free Woman during Horseback Riding Lesson Stock Photo" class="spacing_noMargin__F5u9R PhotoZoom_image__2c8qM" width="6000" height="4000" style="transform: none; background: rgb(132, 135, 140);">'); /* Thriving business background image */
+    background-size: cover;
+    background-position: center;
+}
