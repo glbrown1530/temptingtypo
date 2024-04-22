@@ -20,18 +20,15 @@ body, html {
     background-size: cover; 
     background-position: center;
     text-align: center;
-
 #page1 {
-    background-image: url('barn.jpg'); /* Background image for page 1 */
+    background-image: url('barn.jpg');
 }
 #page2 {
     background-image: url('horseback-riding.jpg');
 }
-
 #page3 {
     background-image: url('happy-horses.jpg');
 }
-
 #page4, #ending2 {
     background-image: url('challenges.jpg');
 }
@@ -43,14 +40,13 @@ h1, h2 {
     text-align: center;
 p {
     text-align: justify;
-    margin-bottom: 20px;
+    margin-bottom: 20 px;
 }
 a {
     color: #007bff;
     text-decoration: none;
     font-weight: bold;
 }
-
 a:hover {
     text-decoration: underline;
 }
