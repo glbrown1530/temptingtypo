@@ -47,31 +47,76 @@ li {
 /* Page backgrounds */
 #page1 {
     background-image: url('horsebarn.jpg'); /* Barn background image */
-    background-size: contain;
+    background-size:container {
+    width: 300px; /* Example width of container */
+    height: 400px; /* Example height of container */
+    background-image: url('vertical-image.jpg');
+    background-size: auto; /* Preserve original image dimensions */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+    background-size: auto; /* Preserve original image dimensions */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
     background-position: center;
 }
 
 #page2, #page3, #page4 {
     background-image: url('horselesson.jpg'); /* Horseback riding background image */
-    background-size: contain;
+    background-size: container {
+    width: 300px; /* Example width of container */
+    height: 400px; /* Example height of container */
+    background-image: url('vertical-image.jpg');
+    background-size: auto; /* Preserve original image dimensions */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
     background-position: center;
 }
 
 /* Ending pages */
 #ending1 {
     background-image: url('happyhorses.jpg'); /* Happy horses background image */
-    background-size: contain;
+    background-size: container {
+    width: 300px; /* Example width of container */
+    height: 400px; /* Example height of container */
+    background-image: url('vertical-image.jpg');
+    background-size: auto; /* Preserve original image dimensions */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
     background-position: center;
 }
 
 #ending2, #ending4 {
     background-image: url('facingchallenges.jpg'); /* Challenges background image */
-    background-size: contain;
+    background-size: container {
+    width: 300px; /* Example width of container */
+    height: 400px; /* Example height of container */
+    background-image: url('vertical-image.jpg');
+    background-size: auto; /* Preserve original image dimensions */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
     background-position: center;
 }
 
 #ending3 {
     background-image: url('happylessons.jpg'); /* Thriving business background image */
-    background-size: contain;
+    background-size: container {
+    width: 300px; /* Example width of container */
+    height: 400px; /* Example height of container */
+    background-image: url('vertical-image.jpg');
+    background-size: auto; /* Preserve original image dimensions */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
     background-position: center;
 }
